@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to lazy-loading-router!');
+    expect(page.getTitleText()).toEqual('ngTraining-injection-madness app is running!');
   });
 
   afterEach(async () => {
